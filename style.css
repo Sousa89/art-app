@@ -24,11 +24,8 @@ main {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1024px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
+h1 span {
+  text-transform: capitalize;
 }
 
 p.artist {
@@ -51,4 +48,10 @@ main ul {
 .piece {
   margin: 10px 15px;
   width: calc(50% - 30px);
+}
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
